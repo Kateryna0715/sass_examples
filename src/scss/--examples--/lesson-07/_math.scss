@@ -3,20 +3,20 @@
   |============================
 */
 .box {
-  width: 600px + 30px;
-  width: 600px - 30px;
+  // width: 600px + 30px;
+  width: calc(600px - 50%);
 }
 /*|============================
   | Множення & Ділення
   |============================
 */
-$vaule: 600px;
+$value: 600px;
 .box {
   width: 600px * 5;
   width: 600px * 2 + 50px;
   width: 2 * (600px + 50px);
 
-  width: $vaule / 5;
+  width: $value / 5;
   width: (600px / 2);
   width: 600px / 3 + 100px;
 }
