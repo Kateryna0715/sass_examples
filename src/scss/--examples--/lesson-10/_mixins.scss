@@ -1,3 +1,5 @@
+@use 'sass:meta';
+
 @mixin frame-size($width, $height: $width) {
   width: $width;
   height: $height;
@@ -34,7 +36,13 @@
   @include position-center;
 }
 
-@mixin position($position-type, $position-x, $position-y, $offset-x, $offset-y) {
+@mixin position(
+  $position-type,
+  $position-x,
+  $position-y,
+  $offset-x,
+  $offset-y
+) {
   position: $position-type;
   top: $position-y;
   left: $position-x;
@@ -100,9 +108,7 @@
   }
 }
 
-@include btn-size(".btn-sm", ".btn-md", ".btn-lg", ".btn-xl");
-
-@use "sass:meta";
+@include btn-size('.btn-sm', '.btn-md', '.btn-lg', '.btn-xl');
 
 @mixin btn-type($types...) {
   // $types: (

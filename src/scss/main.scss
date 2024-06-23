@@ -19,14 +19,14 @@
 // @use 'base/fonts';
 
 // Examples lesson 09
-// @use "base/fonts";
-// @use "components/alert";
-// @use "--examples--/lesson-09/extend";
+// @use 'base/fonts';
+// @use 'components/alert';
+// @use '--examples--/lesson-09/extend';
 
 // Examples lesson 10
-// @use "base/fonts";
-// @use "components/button";
-// @use "--examples--/lesson-10/mixins";
+@use 'base/fonts';
+@use 'components/button';
+@use '--examples--/lesson-10/mixins';
 
 // Examples lesson 11
 // @use "base/fonts";
