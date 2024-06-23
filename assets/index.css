@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/sass_examples/assets/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/sass_examples/assets/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+.btn-lg, .btn-md, .btn-sm {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+  color: #fafafb;
+  background-color: #f07f2e;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+.btn-lg:hover, .btn-md:hover, .btn-sm:hover {
+  background-color: #f15c27;
+  box-shadow: 0px 4px 10px 0px rgba(240, 127, 46, 0.25);
+}
+
+.btn-sm {
+  display: inline-flex;
+  padding: 4px 8px;
+}
+
+.btn-md {
+  display: inline-flex;
+  padding: 8px 12px;
+}
+
+.btn-lg {
+  display: inline-flex;
+  padding: 16px 20px;
+}
+
+.icon, .avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 2px solid lightblue;
+}
+
+.decoration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.decoration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.decoration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  z-index: 100;
+  display: block;
+}
+
+.btn-xl, .btn-lg, .btn-md, .btn-sm {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+  color: #fafafb;
+  background-color: #f07f2e;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+.btn-xl:hover, .btn-lg:hover, .btn-md:hover, .btn-sm:hover, .btn-xl:focus, .btn-lg:focus, .btn-md:focus, .btn-sm:focus {
+  background-color: #f15c27;
+  box-shadow: 0px 4px 10px 0px rgba(240, 127, 46, 0.25);
+}
+
+.btn-sm {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.btn-md {
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
+.btn-lg {
+  padding: 12px 16px;
+  border-radius: 16px;
+}
+
+.btn-xl {
+  padding: 16px 20px;
+  border-radius: 20px;
+}
+
+.btn-success {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
+
+.btn-error {
+  border: 2px solid tomato;
+  color: tomato;
+}
+
+.btn-info {
+  border: 2px solid lightblue;
+  color: lightblue;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid darkblue;
+}
+.button:not([disabled]):hover {
+  color: white;
+  background-color: darkblue;
+}
