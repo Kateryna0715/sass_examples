@@ -29,19 +29,38 @@
 //   @include position-center;
 // }
 
-@mixin position(
-  $position-type,
-  $position-x,
-  $position-y,
-  $offset-x,
-  $offset-y
-) {
-  position: $position-type;
-  top: $position-x;
-  left: $position-y;
-  transform: translate($offset-x, $offset-y);
-}
+// @mixin position(
+//   $position-type,
+//   $position-x,
+//   $position-y,
+//   $offset-x,
+//   $offset-y
+// ) {
+//   position: $position-type;
+//   top: $position-x;
+//   left: $position-y;
+//   transform: translate($offset-x, $offset-y);
+// }
 
-.decoration {
-  @include position(absolute, 50%, 50%, -50%, -50%);
-}
+// .decoration {
+//   @include position(absolute, 50%, 50%, -50%, -50%);
+// }
+
+// @mixin position(
+//   $layer-index,
+//   $position-type: absolute,
+//   $position-x: 50%,
+//   $position-y: $position-x,
+//   $offset-x: $position-x,
+//   $offset-y: $position-x
+// ) {
+//   z-index: $layer-index;
+//   position: $position-type;
+//   top: $position-x;
+//   left: $position-y;
+//   transform: translate($offset-x * -1, $offset-y * -1);
+// }
+
+// .decoration {
+//   @include position($offset-y: 70%, $layer-index: 100);
+// }
