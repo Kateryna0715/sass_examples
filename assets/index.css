@@ -10,38 +10,6 @@
   font-weight: 700;
   font-display: swap;
 }
-.btn-lg, .btn-md, .btn-sm {
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px; /* 142.857% */
-  letter-spacing: 0.5px;
-  color: #fafafb;
-  background-color: #f07f2e;
-  border: none;
-  cursor: pointer;
-  transition: 300ms;
-}
-.btn-lg:hover, .btn-md:hover, .btn-sm:hover {
-  background-color: #f15c27;
-  box-shadow: 0px 4px 10px 0px rgba(240, 127, 46, 0.25);
-}
-
-.btn-sm {
-  display: inline-flex;
-  padding: 4px 8px;
-}
-
-.btn-md {
-  display: inline-flex;
-  padding: 8px 12px;
-}
-
-.btn-lg {
-  display: inline-flex;
-  padding: 16px 20px;
-}
-
 .square-avatar {
   width: 100px;
   height: 100px;
@@ -55,38 +23,37 @@
 
 .title {
   font-size: 20px;
-  font-weight: 600;
   line-height: 1.4;
   letter-spacing: 0.025em;
   text-align: center;
 }
 
 .p-8 {
-  padding: 8px;
+  padding: 8;
 }
 
 .p-16 {
-  padding: 16px;
+  padding: 16;
 }
 
 .p-20 {
-  padding: 20px;
+  padding: 20;
 }
 
 .margin-sm {
-  margin: 24px;
+  margin: 24;
 }
 
 .margin-md {
-  margin: 32px;
+  margin: 32;
 }
 
 .margin-lg {
-  margin: 36px;
+  margin: 36;
 }
 
 .margin-xl {
-  margin: 68px;
+  margin: 68;
 }
 
 .fw-400 {
