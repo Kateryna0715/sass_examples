@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 
 // @if statement
 @mixin avatar($size, $circle: false) {
@@ -11,7 +11,7 @@
 }
 
 .square-avatar {
-  @include avatar(100px);
+  @include avatar(100px, $circle: false);
 }
 .circle-avatar {
   @include avatar(100px, $circle: true);
@@ -20,7 +20,6 @@
 // Conditional statements
 @mixin fonts($fs, $fw: null, $lh: null, $ls: null, $align: null) {
   font-size: $fs;
-
   @if $fw {
     font-weight: $fw;
   }
@@ -28,7 +27,7 @@
   @if $lh {
     @if $lh == normal {
       line-height: normal;
-    } @else if math.unit($lh) == "px" {
+    } @else if math.unit($lh) == 'px' {
       line-height: calc($lh / $fs);
     } @else {
       @error "$lh value #{$lh} is incorrect";
@@ -50,5 +49,5 @@
 
 .title {
   // With keyword args
-  @include fonts(20px, $fw: 600, $lh: 28px, $ls: 0.5px, $align: center);
+  @include fonts(20px, $lh: 28px, $ls: 0.5px, $align: center);
 }
